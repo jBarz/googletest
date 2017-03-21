@@ -48,6 +48,7 @@
 #include "gtest/internal/gtest-linked_ptr.h"
 #include "gtest/internal/gtest-port.h"
 #include "gtest/gtest-printers.h"
+#undef index
 
 #if GTEST_HAS_PARAM_TEST
 
